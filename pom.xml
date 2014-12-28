@@ -4,7 +4,7 @@
 
     <groupId>com.wadpam.gimple</groupId>
     <artifactId>gimple</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
