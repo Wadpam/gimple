@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.wadpam.gimple</groupId>
         <artifactId>gimple</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 	
@@ -34,8 +34,22 @@
         </dependency>
 
         <dependency>
+            <groupId>org.twdata.maven</groupId>
+            <artifactId>mojo-executor</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit</artifactId>
+        </dependency>
+
+        <!-- runtime dependency -->
+        <dependency>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>versions-maven-plugin</artifactId>
+            <version>2.1</version>
+            <scope>runtime</scope>
         </dependency>
 
         <!-- Test scope dependencies: -->
